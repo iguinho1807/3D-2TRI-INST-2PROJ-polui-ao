@@ -6,37 +6,37 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "",
+        enunciado: "Qual a principal causa da puluição do ar nas grandes cidades?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "a:",
+                afirmacao: "Emissões de gases poluentes por veículos automotores"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "b:",
+                afirmacao: "Queimadas em florestas nas áreas rurais"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Qual o impacto mais imediato do descarte inadequado de lixo plático em ambiente aquático",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "a:",
+                afirmacao: "Contaminação da água potável e do solo"
             },
             {
-                texto: "",
-                afirmacao: ""
+                texto: "b:",
+                afirmacao: "Danos a vida marinha e costeira, como o enforcamento de animais"
             }
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Qual a diferença entre a poluição sonora e visual",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
+                texto: "a:",
+                afirmacao: "a poluição sonora é causada por ruídos excessivos, enquanto a poluição"
             },
             {
                 texto: "",
