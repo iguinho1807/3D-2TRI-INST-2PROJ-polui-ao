@@ -6,52 +6,84 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "",
-        enunciado: "Qual a principal causa da puluição do ar nas grandes cidades?",
+        enunciado: "1 - Qual a principal causa da poluição do ar nas grandes cidades?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
-                texto: "a:",
-                afirmacao: "Emissões de gases poluentes por veículos automotores"
+                texto:"a",
+                afirmação: "Emissões de gases poluentes por veículos automotores"
             },
             {
-                texto: "",
-                afirmacao: ""
-                texto: "b:",
-                afirmacao: "Queimadas em florestas nas áreas rurais"
+                texto: "b",
+                afirmação: "Queimadas em florestas nas áreas rurais"
             }
         ]
     },
     {
-        enunciado: "",
-        enunciado: "Qual o impacto mais imediato do descarte inadequado de lixo plático em ambiente aquático",
+        enunciado: "2 - Qual o impacto mais imediato do descarte inadequado de lixo plástico em ambientes aquáticos?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
-                texto: "a:",
-                afirmacao: "Contaminação da água potável e do solo"
+                texto:"a",
+                afirmação: "Contaminação da água potável e do solo"
             },
             {
-                texto: "",
-                afirmacao: ""
-                texto: "b:",
-                afirmacao: "Danos a vida marinha e costeira, como o enforcamento de animais"
+                texto: "b",
+                afirmação: "Danos a vida marinha e costeira, como o enforcamento de animais"
             }
         ]
     },
     {
-        enunciado: "",
-        enunciado: "Qual a diferença entre a poluição sonora e visual",
+        enunciado: "3 - Qual a diferença entre poluição sonora e polução visual?",
         alternativas: [
             {
-                texto: "",
-                afirmacao: ""
-                texto: "a:",
-                afirmacao: "a poluição sonora é causada por ruídos excessivos, enquanto a poluição"
+                texto:"a",
+                afirmação: "A poluição sonora é causada por ruídos excessivos, enquanto a poluição visual é gerada pelo acumulo de elementos que desorganizama paisagem"
             },
-];
+            {
+                texto: "b",
+                afirmação: "A poluição sonora afeta a audição, e a polução visual impacta no sistema respiratório"
+            }
+        ]
+    },
+    {
+        enunciado: "4 - Quai medida pode ser mais eficaz para reduzir a poluição do solo em áreas agrícolas",
+        alternativas: [
+            {
+                texto:"a",
+                afirmação: "Uso intensivo de produtos de fertilizantes químicos"
+            },
+            {
+                texto: "b",
+                afirmação: "Adoção de práticas de agricultura sustentávelcomo rotação de culturas e no uso de adubos orgânicos."
+            }
+        ]
+    },
+    {
+        enunciado: "5 - De que forma a polução luminosa afeta o meio ambiente?",
+        alternativas: [
+            {
+                texto:"a",                
+                afirmação: "Aumenta a visibilidade noturna, facilitando a locomoção."
+            },
+            {
+                texto: "b",
+                afirmação: "Altera o ciclo de vida de animais noturnos e dificulta a desvenção astronômica."
+            }
+        ]
+    }, 
+    {
+        enunciado: "6 - Qual a principal responsabilidade do cidadão comum na luta contra a poluição?",
+        alternativas: [
+            {
+                texto:"a",
+                afirmação: "Esperar por ações governamentais e empresariais para resolução dos problemas"
+            },
+            {
+                texto: "b",
+                afirmação: "Adotas hábitos de consumo concsiente, práticar a reciclagem e economizar recursos naturais"
+            }
+        ]
+    },
+]
 
 
 let atual = 0;
